@@ -1,0 +1,21 @@
+{
+    "name": "nuxseme/image",
+    "description": "image",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "He Ya Dong",
+            "email": "nuxseme@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "image\\":"src/"
+        }
+    }
+}
